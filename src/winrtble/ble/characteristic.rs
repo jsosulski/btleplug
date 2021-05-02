@@ -18,7 +18,7 @@ use crate::{
     Error, Result,
 };
 
-use bindings::Windows::Devices::BluetoothCacheMode;
+use bindings::Windows::Devices::Bluetooth::BluetoothCacheMode;
 use bindings::Windows::Devices::Bluetooth::GenericAttributeProfile::{
     GattCharacteristic, GattClientCharacteristicConfigurationDescriptorValue,
     GattCommunicationStatus, GattValueChangedEventArgs, GattWriteOption,
